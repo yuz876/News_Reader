@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Reader</title>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./styles/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./styles/favicon.ico">
+</head>
+
+<body>
+  <header>
+    <h1>News Reader - a web application</h1>
+    <img src="./styles/settings.svg" alt="settings" width=40 height=40>
+  </header>
+
+  <main class="double-column"></main>
+
+  <entry-page></entry-page>
+
+  <!-- journal-entry web component -->
+  <script src="./components/journal-entry.js" type="module"></script>
+  <script src="./components/entry-page.js" type="module"></script>
+
+  <!-- Router Script -->
+  <script src="./scripts/router.js" type="module"></script>
+
+  <!-- Main Script -->
+  <script src="./scripts/script.js" type="module"></script>
+
+  <footer style="text-align: center;color: #494040; clear:both">
+    <p style="padding-top:30px">Go back to <a href="https://yuz876.github.io/Homepage/">my homepage</a> or <a href="https://github.com/yuz876">my Github Repos.</a></p>
+    <p style="padding-top:30px">Copyright 2022 by Yujie Zhang. All Rights Reserved.</p>
+  </footer>  
+</body>
+
+</html>
